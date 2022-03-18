@@ -14,13 +14,14 @@ Use the `debugger` project that I have created for you.
 5. Change "vs_python_path" of config.json. You need to add path to your VS installation folder.
 
 ## How to use it
-1. Run VS code using `debugger.sln`
-2. Open the file `gh_debug.gh` with Rhino 7
-3. Make sure both Rhino 7 and Grasshopper are opened
-4. (VS) Place a break point on the line you want in `gh_debug.py` to start to debug
-5. (VS) Go to Debug/Attact to Process, Select Connection Type Python Remote
-6. (VS) Type `tcp://dev@localhost:2019/` on target and press `ENTER` of your keyboard
-7. (VS) You should see the Rhino Process below, Select it and `Attach`
+1. Change "vs_python_path" of config.json. You need to add path to your VS installation folder.
+2. Run VS code using `debugger.sln`
+3. Open the file `gh_debug.gh` with Rhino 7
+4. Make sure both Rhino 7 and Grasshopper are opened
+5. (VS) Place a break point on the line you want in `gh_debug.py` to start to debug
+6. (VS) Go to Debug/Attact to Process, Select Connection Type Python Remote
+7. (VS) Type `tcp://dev@localhost:2019/` on target and press `ENTER` of your keyboard
+8. (VS) You should see the Rhino Process below, Select it and `Attach`
 
 Now you can active and deactive the process for debugging using Debug/Attact to Process and Debug/Reattact to Process. You can also refresh grasshopper component to run the debugger again.
 

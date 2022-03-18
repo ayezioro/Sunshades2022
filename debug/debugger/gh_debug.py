@@ -1,7 +1,6 @@
 # begin - initialization
 import sys
 import json
-import ptvsd
 
 # This is the path where the Visual Studio Python modules is on Windows machine
 # no pathlib...
@@ -14,6 +13,7 @@ with open('config.json', 'r') as f:
 if loc and loc not in sys.path:
     sys.path.append(loc)
 
+import ptvsd
 if not ptvsd.is_attached():
     #set up secret, address and port for ptvsd
     ptvsd.enable_attach(secret = 'dev', address = ('localhost', 2019))
