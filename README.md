@@ -22,3 +22,6 @@ Use the `debugger` project that I have created for you.
 7. (VS) You should see the Rhino Process below, Select it and `Attach`
 
 Now you can active and deactive the process for debugging using Debug/Attact to Process and Debug/Reattact to Process. You can also refresh grasshopper component to run the debugger again.
+
+# Notes
+Please, pay attention. I have copied/pasted code inside `gh_debug.py` changing the position of the inputs just to leave the special input free, `code`. Once the logic is fixed you can copy/paste only the useful parts inside the native `UserObject`
