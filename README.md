@@ -1,5 +1,6 @@
 # Guide
 ref: [GUIDE](https://developer.rhino3d.com/guides/rhinopython/ghpython-debugging/)
+RHINO 7 ONLY!
 
 ## Installation
 Iron Python is not supported anymore with templates by VS 2019 and next releases. So the guide above is partially valid.
